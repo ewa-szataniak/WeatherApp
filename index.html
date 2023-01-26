@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/680e85e9ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <div class="row"></div>
+      </div>
+      <form class="search-form" id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              type="search"
+              placeholder="Type a city.."
+              autofocus="on"
+              autocomplete="off"
+              id="city-input"
+              class="form-control shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              type="submit"
+              value="Search"
+              class="form-control btn btn-primary shadow-sm w-100"
+            />
+          </div>
+        </form>
+      </div>
+      <br />
+  
+          <div class="col-3">
+            <button class="btn btn-success w-100" id="current-location-button">
+              Current
+            </button>
+          </div>
+        </div>
+      </form>
+      <br />
+      <div class="row">
+        <div class="col-6">
+          <ul class="stylewind">
+            <li id="date"></li>
+            <li id="description"></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul class="stylewind">
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
+          </ul>
+        </div>
+      </div>
+
+      <h1 id="city"></h1>
+      <h2>
+        <span class="temperature-today" id="temperature-today"> </span> °C
+      </h2>
+      <div class="row">
+        <div class="card" style="width: 7rem;">
+          Monday <br />
+          ☀️ <br />
+          19℃
+        </div>
+
+        <div class="card" style="width: 7rem;">
+          Tuesday <br />
+          🌧 <br />
+          17℃
+        </div>
+
+        <div class="card" style="width: 7rem;">
+          Wednesday <br />
+          ☁️ <br />
+          18℃
+        </div>
+
+        <div class="card" style="width: 7rem;">
+          Thursday <br />
+          ☀️ <br />
+          20℃
+        </div>
+        <div class="card" style="width: 7rem;">
+          Friday <br />
+          🌤 <br />
+          19℃
+        </div>
+        <div class="card" style="width: 7rem;">
+          Saturday <br />
+          ☀️ <br />
+          25℃
+        </div>
+        <div class="card" style="width: 7rem;">
+          Sunday <br />
+          🌤 <br />
+          15℃
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

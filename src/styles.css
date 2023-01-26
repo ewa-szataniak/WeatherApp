@@ -1,0 +1,146 @@
+body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(#af8efc 0%, #c3fcf7 100%);
+}
+
+.card {
+  box-shadow: 6px 10px 18px 7px rgba(0, 0, 0, 0.2);
+  border: solid 1px #ab47bd;
+  max-width: 550px;
+  border-radius: 50px;
+  background-image: url("https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2589&q=80");
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+}
+
+.my-city {
+  font-size: 30px;
+  color: #ab47bd;
+  padding-right: 50px;
+}
+
+.row {
+  color: white;
+  position: relative;
+}
+
+.now-temperature {
+  font-size: 40px;
+  color: #ab47bd;
+}
+
+.maximum {
+  color: #ab47bd;
+}
+
+#time-now {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 40px;
+  padding-left: 70px;
+}
+
+.real-feel {
+  padding-left: 70px;
+  color: #ffffff;
+}
+
+.container {
+  margin: 70px auto;
+  padding: 0 50px;
+}
+
+.units {
+  position: relative;
+  top: -20px;
+  color: #ab47bd;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+a {
+  color: #ab47bd;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  color: white;
+  background: rgba(171, 71, 189, 0.3);
+  padding: 0 5px;
+  border-radius: 50px;
+}
+
+footer {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.percentage,
+.wind {
+  color: #ab47bd;
+}
+
+#row-week {
+  justify-content: center;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 20px;
+  color: white;
+}
+
+#emojis {
+  margin: 10px 20px;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+}
+
+#temperatures {
+  margin: 0 20px;
+  justify-content: center;
+  font-size: 17px;
+  text-align: center;
+}
+
+#input-search {
+  font-size: 16px;
+  color: white;
+  margin: 40px 50px;
+  background: rgba(171, 71, 189, 0.1);
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 14px 11px 26px rgba(59, 58, 58, 0.2);
+  border: solid 1px #ab47bd;
+}
+
+#location-button {
+  font-size: 16px;
+  color: #ffffff;
+  background: #ab47bd;
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  float: right;
+  margin: -90px 55px;
+  box-shadow: 9px 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+#search-button {
+  font-size: 16px;
+  color: #ffffff;
+  background: #ab47bd;
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  float: right;
+  margin: -90px 150px;
+  box-shadow: 9px 10px 18px rgba(0, 0, 0, 0.2);
+}
