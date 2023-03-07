@@ -3,6 +3,16 @@ body {
   background-image: linear-gradient(#af8efc 0%, #c3fcf7 100%);
 }
 
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
+  float: padding-right;
+}
+
 .card {
   box-shadow: 6px 10px 18px 7px rgba(0, 0, 0, 0.2);
   border: solid 1px #ab47bd;
