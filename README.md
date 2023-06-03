@@ -1,2 +1,2 @@
 # WeatherApp
-HTML, CSS & JavaScript with use of Weather API
+HTML, CSS & JavaScript app with use of Weather API
